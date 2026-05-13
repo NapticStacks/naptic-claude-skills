@@ -1,0 +1,32 @@
+{
+  "default": "omerta",
+  "brands": {
+    "omerta": {
+      "display_name": "Omertá",
+      "theme_id": "M9lt1iSI",
+      "workspace_id": "cahxDC",
+      "workspace_name": "omerta travel",
+      "logo_path": "~/Pictures/Omerta-Brand/omerta-logo.jpg",
+      "colors": {
+        "bg": "#1A1A1A",
+        "text": "#F5F5F5",
+        "accent": "#D4D4D4"
+      },
+      "font": "Libre Baskerville",
+      "voice_notes": "Sophisticated, monochrome luxury. Em dashes OK on public-facing forms. No emojis. Anonymous tone."
+    },
+    "sunkissed": {
+      "display_name": "Sunkissed by Heaven",
+      "theme_id": null,
+      "workspace_id": null,
+      "logo_path": "/Volumes/T7/SUNKISSED/Branding/Logos/LogoPNG2.png",
+      "colors": {
+        "bg": "#F1F1F1",
+        "text": "#271503",
+        "accent": "#CFC3AA"
+      },
+      "font": "Source Code Pro",
+      "voice_notes": "Less noise. More sun. More life. Tone: Rhode meets Marcela — calm, confident, scientific but lifestyle-led. Editorial > commercial; lived > staged; specific > generic ('25% zinc oxide' beats 'powerful sun protection'). Lead with the woman + her world, not the product. No exclamation points. Avoid: revolutionary, game-changing, ultimate, miracle, must-have, beauty hack, transformative, advanced. Approved: minimal formula, mineral SPF, reef-safe, sun-soaked, post-sun, ritual, ocean-conscious, life outside. Source: ~/github/omerta-cortex/spvs/sunkissed-by-heaven/03-source-docs/brand-tokens.json."
+    }
+  }
+}
