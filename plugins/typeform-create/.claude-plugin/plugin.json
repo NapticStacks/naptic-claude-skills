@@ -1,0 +1,8 @@
+{
+  "name": "typeform-create",
+  "version": "0.1.0",
+  "description": "Create branded Typeforms via natural language. Three modes (wizard, spec, sketch) auto-detected from input. Brand-aware (Omertá, Sunkissed pre-seeded).",
+  "author": "Naptic",
+  "license": "MIT",
+  "repository": "https://github.com/NapticStacks/naptic-claude-skills"
+}

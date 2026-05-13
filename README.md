@@ -8,11 +8,14 @@ Shared Claude Code skills for the Naptic team.
 
 ## Install
 
-From inside Claude Code:
+This repo is a Claude Code **plugin marketplace**. Install in two steps from inside Claude Code:
 
 ```
-/plugin install NapticStacks/naptic-claude-skills
+/plugin marketplace add NapticStacks/naptic-claude-skills
+/plugin install typeform-create@naptic-skills
 ```
+
+The first command registers the marketplace (one-time per machine). The second installs the `typeform-create` plugin from it. Repeat the second command for any future plugins added to this repo.
 
 ## Per-skill setup
 
@@ -35,8 +38,9 @@ Tokens live only on your machine, never in this repo.
 
 ## Contributing
 
-- New skills go under `skills/<skill-name>/` with their own `SKILL.md`
-- Brand metadata changes (colors, voice notes — NOT theme IDs or tokens) go in `brand-registry/brands.json` via PR
+- New plugins go under `plugins/<plugin-name>/` with their own `.claude-plugin/plugin.json` and `skills/<skill-name>/SKILL.md`
+- Register each new plugin in `.claude-plugin/marketplace.json` so `/plugin install` can find it
+- Brand metadata changes for `typeform-create` (colors, voice notes — NOT theme IDs or tokens) go in `plugins/typeform-create/brand-registry/brands.json` via PR
 - Open an issue first if you're not sure where something belongs
 
 ## Conventions

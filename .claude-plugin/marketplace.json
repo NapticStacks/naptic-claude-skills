@@ -1,0 +1,13 @@
+{
+  "name": "naptic-skills",
+  "owner": {
+    "name": "NapticStacks"
+  },
+  "plugins": [
+    {
+      "name": "typeform-create",
+      "source": "./plugins/typeform-create",
+      "description": "Create branded Typeforms via natural language. Three modes (wizard, spec, sketch) auto-detected from input."
+    }
+  ]
+}
