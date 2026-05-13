@@ -1,13 +1,22 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "naptic-skills",
+  "version": "0.1.0",
+  "description": "Shared Claude Code skills for the Naptic team — Typeform creator, more to come.",
   "owner": {
-    "name": "NapticStacks"
+    "name": "NapticStacks",
+    "email": "engineering@synapticstack.ai"
   },
   "plugins": [
     {
       "name": "typeform-create",
+      "version": "0.1.0",
+      "description": "Create branded Typeforms via natural language. Three modes (wizard, spec, sketch) auto-detected from input. Brand-aware (Omertá, Sunkissed pre-seeded).",
+      "author": {
+        "name": "Naptic"
+      },
       "source": "./plugins/typeform-create",
-      "description": "Create branded Typeforms via natural language. Three modes (wizard, spec, sketch) auto-detected from input."
+      "category": "productivity"
     }
   ]
 }
