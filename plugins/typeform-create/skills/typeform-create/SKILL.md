@@ -1,6 +1,7 @@
 ---
 name: typeform-create
-description: Create branded Typeforms via natural language. Three modes (wizard, spec, sketch) auto-detected from input. Brand-aware (Omertá, Sunkissed pre-seeded; new brands learned on demand). Use when asked to "create a typeform", "make a typeform", "build a form", "intake form", or any variant. Pulls per-brand tokens from `~/.config/typeform/<brand>.token` and brand metadata from the plugin's `brand-registry/brands.json`. (naptic-claude-skills)
+description: Create branded Typeforms via natural language. Three modes (wizard, spec, sketch) auto-detected from input. Brand-aware (Omertá, Sunkissed pre-seeded; new brands learned on demand). Use when asked to "create a typeform", "make a typeform", "build a form", "intake form", or any variant. Pulls per-brand tokens from ~/.config/typeform/<brand>.token and brand metadata from the plugin's brand-registry/brands.json. (naptic-claude-skills)
+version: 0.1.0
 ---
 
 # /typeform-create
